@@ -1,0 +1,12 @@
+directory ./src
+set follow-exec-mode new
+set breakpoint pending on
+b sudoers.c:826
+b sudoers.c:834
+c
+c
+c
+b nsswitch.c:147
+b nsswitch.c:498
+b nsswitch.c:369
+b __libc_dlopen_mode
